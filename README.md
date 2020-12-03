@@ -1,4 +1,4 @@
-# pryecto_sprint2
+# proyecto_sprint2
 
 ## Project setup
 ```
