@@ -1,10 +1,16 @@
 <template>
   
   <div id="app">
+
     <!-- Header con carrusel -->
     <header class="page-header">
       <seccion-header></seccion-header>
     </header>
+        <div class="container-fluid">
+<!-- se llama a la seccion noticias -->
+          <page-noticias></page-noticias>
+      </div>   
+    
     <div> 
            <h5 class="text-center font-weight-bold font-xl">EQUIPO DE TRABAJO</h5> 
            <hr width="200" size="2" noshade="noshade" color=#ffa600>   
@@ -25,9 +31,9 @@
     <!-- Footer -->
   </div>
 </template>
-
 <script>
-
+// se importa el componente de noticias
+import PageNoticias from './components/PageNoticias.vue'
 import SeccionHeader from './components/SeccionHeader.vue'
 import SeccionFooter from './components/SeccionFooter.vue'
 import TeamCard from './components/TeamCard.vue'
@@ -35,10 +41,11 @@ import TeamCard from './components/TeamCard.vue'
 export default {
   name: 'App',
   components:{
+    PageNoticias,
     SeccionHeader,
     SeccionFooter,
     TeamCard
-  },
+    },
   data(){
     return{
       title: 'Vivo dentro del VUE',
@@ -105,6 +112,5 @@ export default {
       }]
     }
   }
-}
 </script>
 
