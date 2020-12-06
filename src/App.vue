@@ -6,12 +6,12 @@
     <header class="page-header">
       <seccion-header></seccion-header>
     </header>
-        <div class="container-fluid">
-<!-- se llama a la seccion noticias -->
-          <page-noticias></page-noticias>
+<!-- seccion de noticias -->
+      <div id="news" class="container-fluid">
+        <page-noticias></page-noticias>
       </div>   
     
-    <div> 
+    <div id="team"> 
            <h5 class="text-center font-weight-bold font-xl">EQUIPO DE TRABAJO</h5> 
            <hr width="200" size="2" noshade="noshade" color=#ffa600>   
       </div>
@@ -112,5 +112,6 @@ export default {
       }]
     }
   }
+}
 </script>
 

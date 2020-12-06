@@ -22,8 +22,8 @@
             <br />
             <a
               class="badge badge-light"
-              href="https://github.com/Proyecto-grupo-17/semana-1-17"
-              >https://github.com/Proyecto-grupo-17/semana-1-17</a
+              href="https://github.com/Proyecto-grupo-17/semana-2-17"
+              >https://github.com/Proyecto-grupo-17/semana-2-17</a
             >
           </div>
           <!-- Grid column -->
