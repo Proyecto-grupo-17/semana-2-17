@@ -11,11 +11,7 @@
         <page-noticias></page-noticias>
       </div>   
     
-    <div id="team"> 
-           <h5 class="text-center font-weight-bold font-xl">EQUIPO DE TRABAJO</h5> 
-           <hr width="200" size="2" noshade="noshade" color=#ffa600>   
-      </div>
-    <div class="container-fluid">      
+    <div class="container-fluid" id="team">      
       <div class="row justify-content-center mb-5" >
         
         <div class="col md-5"  v-for="(member, index) of team" :key="index" >
@@ -53,62 +49,37 @@ export default {
       {
         codigo:1,
         nombre: "Daniel Felipe Martínez Vizcaino",
-        descripcion: {
-          edad: "24 años",
-          profesion: "Ingeniero Físico - Universidad Nacional de Colombia",
-          ciudad: "Bogotá D.C.",
-          pasatiempos: "ver series o películas, jugar fútbol y estudiar programación"
-          },
+        descripcion: "24 años, Ingeniero Físico - Universidad Nacional de Colombia, Bogotá D.C., ver series o películas, jugar fútbol y estudiar programación",
         rol: "Desarrollador backend",
-        imagen: require(`@/assets/Daniel.jpeg`)
+        image: require(`@/assets/Daniel.jpeg`)
       },
       {
         codigo:2,
         nombre: "Stefannie Julieth Morales Plazas",
-        descripcion: {
-          edad: "22 años",
-          profesion: "Técnica en Sistemas y Tecnóloga en Análisis y Desarrollo de Sistemas De Información - SENA",
-          ciudad: "Bogotá D.C.",
-          pasatiempos: "Leer"
-          },
+        descripcion: "22 años, Técnica en Sistemas y Tecnóloga en Análisis y Desarrollo de Sistemas De Información - SENA, Bogotá D.C., Leer",
         rol: "Desarrollador backend",
-        imagen: require(`@/assets/Stefannie.jpg`)
+        image: require(`@/assets/Stefannie.jpg`)
       },
       {
         codigo:3,
         nombre: "Mayra Alejandra Velásquez Ramos",
-        descripcion: {
-          edad: "33 años",
-          profesion: "Ingeniera Catastral y Geodesta - Universidad Distrital Francisco José de Caldas",
-          ciudad: "Bogotá D.C.",
-          pasatiempos: "Leer, pasear con sus perros"
-          },
+        descripcion: "33 años, Ingeniera Catastral y Geodesta - Universidad Distrital Francisco José de Caldas, Bogotá D.C., Leer, pasear con sus perros",
         rol: "Desarrollador backend",
-        imagen: require(`@/assets/Mayra.jpg`)
+        image: require(`@/assets/Mayra.jpg`)
       },
       {
         codigo:4,
         nombre: "Héctor Leonardo Sosa Pinto",
-        descripcion: {
-          edad: "46 años",
-          profesion: "Ingeniero Mecánico - Universidad Nacional de Colombia",
-          ciudad: "Cali",
-          pasatiempos: "Leer, escuchar música, ver series o películas"
-          },
+        descripcion: "46 años, Ingeniero Mecánico - Universidad Nacional de Colombia, Cali, Leer, escuchar música, ver series o películas",
         rol: "Desarrollador backend",
-        imagen: require(`@/assets/Hector.jpg`)
+        image: require(`@/assets/Hector.jpg`)
       },
       {
         codigo:5,
         nombre: "Andrés Miguel Ramírez Palacio",
-        descripcion: {
-          edad: "24 años",
-          profesion: "Ingeniero Biomédico / Investigador - Universidad EIA",
-          ciudad: "Medellin",
-          pasatiempos: "Hacer deporte y salir a comer con mis amigos"
-          },
+        descripcion: "24 años, Ingeniero Biomédico / Investigador - Universidad EIA, Medellin,Hacer deporte y salir a comer con mis amigos",
         rol: "Desarrollador backend",
-        imagen: require(`@/assets/Andres.png`)
+        image: require(`@/assets/Andres.png`)
       }]
     }
   }
