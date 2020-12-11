@@ -17,13 +17,13 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#news ">Noticias</a>
+              <a class="nav-link text-light" href="#news">Noticias</a>
+           </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#team">Miembros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#team ">Miembros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#contact ">Contacto</a>
+              <a class="nav-link text-light" href="#contact">Contacto</a>
             </li>
           </ul>
         </div>
