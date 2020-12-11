@@ -50,7 +50,7 @@ export default {
     },
     //para consumir a la api en la seccion de noticias con axios
     mounted(){
-        axios.get('http://www.omdbapi.com/?s=pokemon&type=movie&apikey=21df0110')
+        axios.get('http://www.omdbapi.com/?s=ice+age&type=movie&apikey=21df0110')
         .then(response => {
             (this.movies = response.data.Search.slice(0,4))
                 //console.log(this.movies)
